@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,18 +14,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   hoanglinh,
   namiq,
   prm,
   weather,
+  shopee_food,
 } from '../assets';
 
 export const navLinks = [
@@ -120,6 +113,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Independent Delivery Partner',
+    company_name: 'Shopee Food',
+    icon: shopee_food,
+    iconBg: '#E6DEDD',
+    date: 'April 2024 - Present',
+    points: [
+      'Optimized daily delivery routes to ensure a 98% on-time delivery rate under tight schedules.',
+      'Handled diverse customer interactions, maintaining a high satisfaction rating through effective communication and a friendly attitude.',
+      'Demonstrated high resilience by consistently meeting targets in challenging weather and traffic conditions.',
+      'Managed and reconciled cash collections (COD) accurately on a daily basis.',
+    ],
+  },
+  {
     title: 'Mobile Game Developer',
     company_name: 'Hoang Linh Online',
     icon: hoanglinh,
@@ -151,28 +157,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+      'Son is a diligent and industrious employee with strong listening skills and a collaborati.',
+    name: 'Dang Viet Tuan',
+    designation: 'Tech Lead',
+    company: 'NamIQ',
+    image: 'https://randomuser.me/api/portraits/men/4.jpg',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
+      'A proactive self-starter and fast learner who embraces difficulties.',
+    name: 'Nguyen Viet Phu',
+    designation: 'MB Game Lead',
+    company: 'Hoang Linh Online',
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
-  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: 'Lisa Wang',
+  //   designation: 'CTO',
+  //   company: '456 Enterprises',
+  //   image: 'https://randomuser.me/api/portraits/women/6.jpg',
+  // },
 ];
 
 const projects = [
