@@ -20,6 +20,7 @@ import {
   prm,
   weather,
   shopee_food,
+  bookified,
 } from '../assets';
 
 export const navLinks = [
@@ -223,6 +224,26 @@ const projects = [
     ],
     image: weather,
     source_code_link: 'https://weather.giason.xyz/',
+  },
+  {
+    name: 'Bookified Web',
+    description: 'Talk about the book you’ve been studying with AI',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Vapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Clerk',
+        color: 'red-text-gradient',
+      },
+    ],
+    image: bookified,
+    source_code_link: 'https://bookified.giason.xyz/',
   },
 ];
 

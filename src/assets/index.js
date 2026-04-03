@@ -34,6 +34,7 @@ import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 import prm from './prm.png';
 import weather from './weather.png';
+import bookified from './bookified.png';
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   weather,
   prm,
   shopee_food,
+  bookified,
 };
